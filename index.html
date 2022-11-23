@@ -22,49 +22,59 @@
 </head>
 <body>
 	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-					<span class="logo">Menu</span>
-				</div>
-				<nav id="navbar-1" class="navbar item-nav">
+	<nav>
+		<div id="menu_container">
+			<ul class="sf-menu" id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="examples.html">Examples</a></li>
+				<li><a href="page.html">A Page</a></li>
+				<li><a href="another_page.html">Another Page</a></li>
+				<li>
+					<a href="#">Example Drop Down</a>
 					<ul>
-						<li class="active"><a href="#about">About</a></li>
-						<li><a href="#experiences">Experiences</a></li>
-						<li><a href="#achievements">Publications</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#">Drop Down One</a></li>
+						<li>
+							<a href="#">Drop Down Two</a>
+							<ul>
+								<li><a href="#">Sub Drop Down One</a></li>
+								<li><a href="#">Sub Drop Down Two</a></li>
+								<li><a href="#">Sub Drop Down Three</a></li>
+								<li><a href="#">Sub Drop Down Four</a></li>
+								<li><a href="#">Sub Drop Down Five</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Drop Down Three</a></li>
+						<li><a href="#">Drop Down Four</a></li>
+						<li><a href="#">Drop Down Five</a></li>
 					</ul>
-				</nav>
-			</header>
+				</li>
+				<li><a href="contact.php">Contact Us</a></li>
+			</ul>
 		</div>
-	</div>
-	<!-- Tabs -->
-	<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-	<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-	<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-	<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+	</nav>
 
-	<div id="Home" class="tabcontent">
-		<h3>Home</h3>
-		<p>Home is where the heart is..</p>
-	</div>
 
-	<div id="News" class="tabcontent">
-		<h3>News</h3>
-		<p>Some news this fine day!</p>
-	</div>
-
-	<div id="Contact" class="tabcontent">
-		<h3>Contact</h3>
-		<p>Get in touch, or swing by for a cup of coffee.</p>
-	</div>
-
-	<div id="About" class="tabcontent">
-		<h3>About</h3>
-		<p>Who we are and what we do.</p>
-	</div>
+	<!-- Navigation Backup-->
+	<!--
+		<div class="main-nav">
+			<div class="container">
+				<header class="group top-nav">
+					<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+						<span class="logo">Menu</span>
+					</div>
+					<nav id="navbar-1" class="navbar item-nav">
+						<ul>
+							<li class="active"><a href="#about">About</a></li>
+							<li><a href="#experiences">Experiences</a></li>
+							<li><a href="#achievements">Publications</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+		</div>
+	-->
 	<!-- Introduction -->
 	<div class="intro section" id="about">
 		<div class="container">
