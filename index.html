@@ -21,21 +21,43 @@
 	</style>
 </head>
 <body>
+	<!-- Tabs -->
+	<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'London')">London</button>
+		<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+		<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+	</div>
+
+	<!-- Tab content -->
+	<div id="London" class="tabcontent">
+		<h3>London</h3>
+		<p>London is the capital city of England.</p>
+	</div>
+
+	<div id="Paris" class="tabcontent">
+		<h3>Paris</h3>
+		<p>Paris is the capital of France.</p>
+	</div>
+
+	<div id="Tokyo" class="tabcontent">
+		<h3>Tokyo</h3>
+		<p>Tokyo is the capital of Japan.</p>
+	</div>
 	<!-- Navigation -->
 	<div class="main-nav">
 		<div class="container">
 			<header class="group top-nav">
 				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">Menu</span>
+					<span class="logo">Menu</span>
 				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#achievements">Publications</a></li>
-				        <li><a href="#skills">Skills</a></li>
-				        <li><a href="#contact">Contact</a></li>
-				    </ul>
+				<nav id="navbar-1" class="navbar item-nav">
+					<ul>
+						<li class="active"><a href="#about">About</a></li>
+						<li><a href="#experiences">Experiences</a></li>
+						<li><a href="#achievements">Publications</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</nav>
 			</header>
 		</div>
@@ -60,81 +82,80 @@
 	</div>
 
 	<!-- Work Experience -->
-<!--
-	<div class="work section second" id="experiences">
-		<div class="container">
-			<h1>Work<br>Experiences</h1>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">PT Traveloka Indonesia</a></li>
-				<li>Web Designer</li>
-			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Wego</a></li>
-				<li>UI/UX Designer</li>
-			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Garuda Indonesia</a></li>
-				<li>System Designer</li>
-			</ul>
+	<!--
+		<div class="work section second" id="experiences">
+			<div class="container">
+				<h1>Work<br>Experiences</h1>
+				<ul class="work-list">
+					<li>2014-2015</li>
+					<li><a href="#">PT Traveloka Indonesia</a></li>
+					<li>Web Designer</li>
+				</ul>
+				<ul class="work-list">
+					<li>2014-2015</li>
+					<li><a href="#">Wego</a></li>
+					<li>UI/UX Designer</li>
+				</ul>
+				<ul class="work-list">
+					<li>2014-2015</li>
+					<li><a href="#">Garuda Indonesia</a></li>
+					<li>System Designer</li>
+				</ul>
+			</div>
 		</div>
-	</div>
--->
-
+	-->
 	<!-- Award & Achievements -->
-<!--
-	<div class="award section second" id="achievements">
-		<div class="container">
-			<h1>Award &amp;<br>Achievements</h1>
-			<ul class="award-list list-flat">
-				<li>January 2014</li>
-				<li>Attained PHP5 certification</li>
-				<li>Hold world/Olympic record</li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li>December 2014</li>
-				<li>Audited X number of clients in only Y amount of time</li>
-				<li>Held a perfect attendance record</li>
-				<li>Were promoted after only X months in the role</li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li>March 2014</li>
-				<li>Placed employees at X companies</li>
-				<li>United multiple teams post-merger</li>
-			</ul>
+	<!--
+		<div class="award section second" id="achievements">
+			<div class="container">
+				<h1>Award &amp;<br>Achievements</h1>
+				<ul class="award-list list-flat">
+					<li>January 2014</li>
+					<li>Attained PHP5 certification</li>
+					<li>Hold world/Olympic record</li>
+				</ul>
+				<ul class="award-list list-flat">
+					<li>December 2014</li>
+					<li>Audited X number of clients in only Y amount of time</li>
+					<li>Held a perfect attendance record</li>
+					<li>Were promoted after only X months in the role</li>
+				</ul>
+				<ul class="award-list list-flat">
+					<li>March 2014</li>
+					<li>Placed employees at X companies</li>
+					<li>United multiple teams post-merger</li>
+				</ul>
+			</div>
 		</div>
-	</div>
--->
+	-->
 	<!-- Technical Skills -->
-<!--
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / SASS / PHP / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL / MongoDB / Oracle / Access</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Framework</li>
-				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
-			</ul>
+	<!--
+		<div class="skills section second" id="skills">
+			<div class="container">
+				<h1>Technical<br>Skills</h1>
+				<ul class="skill-list list-flat">
+					<li>Web Technology</li>
+					<li>HTML / CSS / SASS / PHP / Javascript</li>
+				</ul>
+				<ul class="skill-list list-flat">
+					<li>Database</li>
+					<li>MySQL / MongoDB / Oracle / Access</li>
+				</ul>
+				<ul class="skill-list list-flat">
+					<li>Framework</li>
+					<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
+				</ul>
+			</div>
 		</div>
-	</div>
--->
+	-->
 	<!-- Quote -->
-<!--
-	<div class="quote">
-		<div class="container text-centered">
-			<h1>fight against the ugliness.</h1>
+	<!--
+		<div class="quote">
+			<div class="container text-centered">
+				<h1>fight against the ugliness.</h1>
+			</div>
 		</div>
-	</div>
--->
+	-->
 	<footer>
 		<div class="container">
 			<div class="units-row">
@@ -166,14 +187,17 @@
 	<!-- Javascript -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-    <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		// Change to edit type effect
-		strings: ["Galaxies", "Exo-planets", "Variable Stars"],
+	<script src="js/kube.min.js"></script>
+	<script src="js/site.js"></script>
+	<script>
+		function newTyped() { } $(function () {
+			$("#typed").typed({
+				// Change to edit type effect
+				strings: ["Galaxies", "Exo-planets", "Variable Stars"],
 
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-    </script>
+				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+			}), $(".reset").click(function () { $("#typed").typed("reset") })
+		});
+	</script>
 </body>
 </html>
